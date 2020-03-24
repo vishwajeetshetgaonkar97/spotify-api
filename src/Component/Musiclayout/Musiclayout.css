@@ -25,7 +25,7 @@
     top: 49vh;
     left:10%;
     width: 100%;
-    max-height: 5vh;
+    max-height: 6vh;
     font-size: 4vh;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color: rgb(235, 235, 235);
@@ -134,17 +134,17 @@ opacity: 0.6;
   @media(max-width:500px){
     .base{
         position: absolute;
-        top: -9%;
-         left: -20%;
-         width:140%;
-         height: 91vh;
+        top: -8%;
+         left: -15%;
+         width:130%;
+         height: 89vh;
        background: linear-gradient(45deg, rgb(0, 0, 0), rgb(0, 0, 0) 60%, rgb(12, 12, 12));
     }
     .image{
         position: absolute;
         top: 2%;
-        left:5%;
-        width: 90%;
+        left:2%;
+        width: 96%;
         height: 45vh;
         background: linear-gradient(1deg, rgb(0, 0, 0) 0%, rgb(32, 172, 85) 60%, rgb(8, 248, 0));
         
@@ -153,8 +153,8 @@ opacity: 0.6;
     .bar{
         position: absolute;
         top: 47vh;
-        left:5%;
-        width: 90%;
+        left:2%;
+        width: 96%;
         height: 0.2%;
         transition: .5s ease;
         cursor: pointer;
